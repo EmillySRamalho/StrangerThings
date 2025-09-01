@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/itc-benguiat');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(270deg, black, rgb(49, 2, 2), black);
+  background-size: 600% 600%;
+  animation: moverDegrade 8s ease infinite;
+}
+
+@keyframes moverDegrade {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.inicial {
+    margin-top: 50px;
+    font-family: 'ITC Benguiat', serif;
+    font-size: 35px;
+    color: red;
+    text-shadow: 0 0 6px black, 0 0 12px red;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.subinicial {
+    margin-top: 20px;
+    color: white;
+    text-shadow: 0 0 6px black, 0 0 12px red;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'ITC Benguiat', serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.stranger{
+   width: 180px;
+   height: 35vh;
+   border-radius: 20px;
+   border: solid 3px rgb(99, 15, 15);
+   margin-top: 50px;
+   margin-left: 28px;
+}
+
+.stranger:hover{
+    transform: scale(1.25);
+    transition: transform 0.1s;
+    
+}
+
+.botao{
+    color: red;
+    background-color: black;
+    padding : 15px;
+    border-radius: 15px;
+    border: solid 3px rgb(99, 15, 15);
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'ITC Benguiat', serif;
+    font-weight: bolder;
+    box-shadow: 0 0 6px black, 0 0 12px red;
+    margin-top: 38px;
+
+}
