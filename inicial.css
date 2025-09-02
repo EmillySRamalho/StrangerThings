@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    padding: 10px;
+}
+
+.btn{
+    background-color: rgb(243, 243, 243);
+    color: red;
+    border: solid 2px red;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'ITC Benguiat', serif;
+    font-size: 15px;
+    cursor: pointer;
+}

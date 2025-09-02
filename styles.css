@@ -9,7 +9,10 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(270deg, black, rgb(49, 2, 2), black);
+  background: linear-gradient(270deg, #000000, #1a0000, #180000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: 600% 600%;
   animation: moverDegrade 8s ease infinite;
 }
@@ -19,12 +22,14 @@ body {
     background-position: 0% 50%;
   }
   50% {
-    background-position: 0% 50%;
+    background-position: 100% 50%;
   }
   100% {
     background-position: 0% 50%;
   }
 }
+
+
 
 .inicial {
     margin-top: 50px;
@@ -59,9 +64,9 @@ body {
 
 .stranger{
    width: 180px;
-   height: 35vh;
+   height: 40vh;
    border-radius: 20px;
-   border: solid 3px rgb(99, 15, 15);
+   border: solid 3px rgb(0, 0, 0);
    margin-top: 50px;
    margin-left: 28px;
 }
